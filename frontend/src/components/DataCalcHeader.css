@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial;
+
+}
+
+.autocomplete {
+  align-self: center;
+  position: relative;
+  display: flex;
+  gap: 1vw;
+}
+
+.confirmButton {
+  width: 500px;
+  white-space: nowrap;
+}
+
+.menuButtonsContainer {
+  margin-left: 30px;
+  gap: 1vw;
+  align-self: center;
+  position: relative;
+  display: flex;
+}
+
+.aggregationButtons {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.rateChangeButtons{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.aggregationButtonsContainer {
+  gap: 1vw;
+  align-self: center;
+  position: relative;
+  display: flex;
+
+}
+
+.rateChangeContainer {
+  gap: 1vw;
+  align-self: center;
+  position: relative;
+  display: flex;
+}
+
+.menuButtons {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  gap: 2vw
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.valid-input {
+  color: green;
+}
+
+.invalid-input {
+  color: red;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
