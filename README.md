@@ -52,4 +52,4 @@ While the MVP showcases the essential functionality, there are several possible 
 
 2. **Custom Formula Builder:** Implement a visual formula builder to simplify the process of creating calculation columns.
 
-3. **Data Export:** Allow users to export the calculated data for further analysis outside of Opvia.
+3. **Data Export:** Allow users to export the calculated data 
