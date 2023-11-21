@@ -12,7 +12,7 @@ interface OpviaTableProps {
   columns: Array<{ columnName: string, columnType: string, columnId: string }>
   dummyData: Record<string, string | number>
   rateOfChangeValues: Record<string, Array<{ timeInterval: string, value: number }>>
-  rateOfChangeColumns: Array<{ columnName: stringgit, columnType: string, columnId: string }>
+  rateOfChangeColumns: Array<{ columnName: string, columnType: string, columnId: string }>
   setColumnMapping: React.Dispatch<React.SetStateAction<Record<string, number>>>
 }
 
