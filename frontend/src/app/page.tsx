@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import OpviaTable from '../components/OpviaTable'
+import OpviaTable from '../components/Table'
 import DataCalcHeader from '../components/DataCalcHeader'
 import { dummyTableData } from '../data/dummyData'
 
